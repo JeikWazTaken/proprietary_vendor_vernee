@@ -539,7 +539,7 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/vernee/k11tc_a/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
     vendor/vernee/k11tc_a/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
-    vendor/vernee/k11tc_a/proprietary/vendor/lib/libdrmctaplugin.so:system/vendor/lib/libdrmctaplugin.so \
+    vendor/vernee/k11tc_a/proprietary/lib/drm/libdrmctaplugin.so:system/lib/drm/libdrmctaplugin.so \
     vendor/vernee/k11tc_a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/vernee/k11tc_a/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/vernee/k11tc_a/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
