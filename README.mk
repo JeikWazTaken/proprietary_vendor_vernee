@@ -7,7 +7,7 @@ This branch is vendor for building of the LineageOS 13.0 and Android Marshmallow
 
 # About Device
 
-![Vernee Mars](https://d2giyh01gjb6fi.cloudfront.net/default/0001/37/thumb_36751_default_big.jpeg "Vernee Mars in silver")
+![Vernee Mars](https://d2giyh01gjb6fi.cloudfront.net/default/0001/37/thumb_36751_default_big.jpeg "Vernee Mars")
 
 Released on September 2016, the Vernee Mars (codenamed _"k11tc_a"_) is a eye-candy phone released by Vernee. The Mars now supports LineageOS 13.0!
 
@@ -34,6 +34,7 @@ Front Camera | 5MP (OV)
  * Wi-Fi
  * Fast charging
  * Offline charging
+ * GPS
  * Vibration
  * Audio
  * Auto brightness
@@ -54,7 +55,6 @@ Front Camera | 5MP (OV)
  * Wi-Fi tethering
 
 ### In progress:
- * GPS
  * getting rid of the pink filter on the front camera
 
 ### Thanks to:
