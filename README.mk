@@ -1,33 +1,26 @@
-Elephone P9000 - LineageOS 13.0/AOSP
-==============
+# LineageOS Device Tree
+- LineageOS device tree for Vernee Mars
 
-This branch is vendor for building of the LineageOS 13.0 and Android Marshmallow 6.0 AOSP ROMs.
+Device configuration for Vernee Mars.
+=====================================
 
----
-
-# About Device
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Quad-core 2.0 GHz Cortex-A53 & quad-core 1.2 GHz Cortex-A53
+CHIPSET | Mediatek Helio P10 (MT6755)
+GPU     | Mali-T860 MP2
+Memory  |4GB RAM
+Shipped Android Version | 6.0.1 (7.0 available)
+Storage | 32GB
+MicroSD | Up to 128GB
+Battery | 3,000 mAh
+Dimensions | 151.6 x 73 x 7.6 mm
+Display | 1080 x 1920 pixels, 5.5 in IPS LCD
+Rear Camera  | 13 MP SONY IMX258 Exmor RS, 4128 x 3096 pixels, autofocus, LED flash
+Front Camera | 5 MP Samsung S5K5E2
+Release Date | November 2016
 
 ![Vernee Mars](https://d2giyh01gjb6fi.cloudfront.net/default/0001/37/thumb_36751_default_big.jpeg "Vernee Mars")
-
-Released on September 2016, the Vernee Mars (codenamed _"k11tc_a"_) is a eye-candy phone released by Vernee. The Mars now supports LineageOS 13.0!
-
-### Specifications
-
-Component Type | Details
--------:|:-------------------------
-CPU     | 2.0GHz Octa-Core MT6755 (Helio P10)
-GPU     | Mali-T860
-Memory  | 4GB RAM
-Shipped Android Version | 6.0
-Storage | 32GB
-Battery | 3000 mAh
-Display | 5.5" 1920 x 1080 px DPI 480
-Rear Camera | 13MP (Sony IMX258 Exmor RS), Dual LED Flash
-Front Camera | 5MP (OV)
-
----
-
-# Build Information
 
 ### Working:
  * Hardware acceleration
