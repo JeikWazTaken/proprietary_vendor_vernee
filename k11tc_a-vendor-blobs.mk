@@ -23,22 +23,11 @@ endif
 
 PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/6620_launcher:system/bin/6620_launcher \
-    vendor/vernee/k11tc_a/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
-    vendor/vernee/k11tc_a/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/vernee/k11tc_a/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
-    vendor/vernee/k11tc_a/proprietary/bin/aal:system/bin/aal \
-    vendor/vernee/k11tc_a/proprietary/bin/aee:system/bin/aee \
-    vendor/vernee/k11tc_a/proprietary/bin/aee_archive:system/bin/aee_archive \
-    vendor/vernee/k11tc_a/proprietary/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
     vendor/vernee/k11tc_a/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/vernee/k11tc_a/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/vernee/k11tc_a/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/vernee/k11tc_a/proprietary/bin/ami304d:system/bin/ami304d \
-    vendor/vernee/k11tc_a/proprietary/bin/atci_service:system/bin/atci_service \
-    vendor/vernee/k11tc_a/proprietary/bin/atcid:system/bin/atcid \
-    vendor/vernee/k11tc_a/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
-    vendor/vernee/k11tc_a/proprietary/bin/autobt:system/bin/autobt \
-    vendor/vernee/k11tc_a/proprietary/bin/autokd:system/bin/autokd \
     vendor/vernee/k11tc_a/proprietary/bin/badblocks:system/bin/badblocks \
     vendor/vernee/k11tc_a/proprietary/bin/batterywarning:system/bin/batterywarning \
     vendor/vernee/k11tc_a/proprietary/bin/bmm050d:system/bin/bmm050d \
@@ -105,8 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/vernee/k11tc_a/proprietary/lib/liba3m.so:system/lib/liba3m.so \
     vendor/vernee/k11tc_a/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libaal.so:system/lib/libaal.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libaal_cust.so:system/lib/libaal_cust.so \
     vendor/vernee/k11tc_a/proprietary/lib/libacdk.so:system/lib/libacdk.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
     vendor/vernee/k11tc_a/proprietary/lib/libaed.so:system/lib/libaed.so \
@@ -250,6 +237,10 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
+    #vendor/vernee/k11tc_a/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    #vendor/vernee/k11tc_a/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
+    #vendor/vernee/k11tc_a/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    #vendor/vernee/k11tc_a/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
@@ -545,7 +536,21 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/vernee/k11tc_a/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/vernee/k11tc_a/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/vernee/k11tc_a/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:system/vendor/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib64/libfrsdk.so:system/vendor/lib64/libfrsdk.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/libh264enc_sa.ca7.so:system/vendor/lib/libh264enc_sa.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/libh264enc_sb.ca7.so:system/vendor/lib/libh264enc_sb.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/liblibvp8enc_sa_ca7.so:system/vendor/lib/liblibvp8enc_sa_ca7.so \
+    vendor/vernee/k11tc_a/proprietary/vendor/lib/libvp8dec_sa_ca7.so:system/vendor/lib/libHEVCdec_sa.ca7.android.so \
     vendor/vernee/k11tc_a/proprietary/data/misc/ProjectConfig.mk:system/data/misc/ProjectConfig.mk
 endif
 
