@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/vernee/k11tc_a/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
     vendor/vernee/k11tc_a/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
+    vendor/vernee/k11tc_a/proprietary/bin/aal:system/bin/aal \
     vendor/vernee/k11tc_a/proprietary/bin/aee:system/bin/aee \
     vendor/vernee/k11tc_a/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/vernee/k11tc_a/proprietary/bin/akmd8963:system/bin/akmd8963 \
@@ -145,6 +146,8 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libsec_mem.so:system/lib/libsec_mem.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libsec_mem.so:system/lib64/libsec_mem.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
@@ -398,7 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/vernee/k11tc_a/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/vernee/k11tc_a/proprietary/bin/pq:system/bin/pq \
-    vendor/vernee/k11tc_a/proprietary/bin/aal:system/bin/aal \
     vendor/vernee/k11tc_a/proprietary/bin/ppl_agent:system/bin/ppl_agent \
     vendor/vernee/k11tc_a/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
@@ -426,5 +428,7 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/vernee/k11tc_a/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/vernee/k11tc_a/proprietary/lib64/libalgoandroid.so:system/lib64/libalgoandroid.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so
