@@ -385,8 +385,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcam.exif.v3.so:system/lib/libcam.exif.v3.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcam.exif.v3.so:system/lib64/libcam.exif.v3.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
@@ -441,6 +439,8 @@ PRODUCT_COPY_FILES += \
 
 #Additional Camera blobs for the fix
 PRODUCT_COPY_FILES += \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcam.jni.lomohaljni.so:system/lib/libcam.jni.lomohaljni.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
     vendor/vernee/k11tc_a/proprietary/lib/libeffecthal.JPG.so:system/lib/libeffecthal.JPG.so \
