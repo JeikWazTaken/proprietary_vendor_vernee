@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/bmm050d:system/bin/bmm050d \
     vendor/vernee/k11tc_a/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/vernee/k11tc_a/proprietary/bin/xlog:system/bin/xlog \
-    vendor/vernee/k11tc_a/proprietary/bin/fuelgauged:system/bin/fuelgauged \
     vendor/vernee/k11tc_a/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/vernee/k11tc_a/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/vernee/k11tc_a/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
@@ -67,43 +66,21 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/vernee/k11tc_a/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/vernee/k11tc_a/proprietary/bin/s62xd:system/bin/s62xd \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.exif.v3.so:system/lib/libcam.exif.v3.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.exif.v3.so:system/lib64/libcam.exif.v3.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/vernee/k11tc_a/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
     vendor/vernee/k11tc_a/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
     vendor/vernee/k11tc_a/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libm4u.so:system/lib/libm4u.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
     vendor/vernee/k11tc_a/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
     vendor/vernee/k11tc_a/proprietary/lib/libem_modem_jni.so:system/lib/libem_modem_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libem_modem_jni.so:system/lib64/libem_modem_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
     vendor/vernee/k11tc_a/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
     vendor/vernee/k11tc_a/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
     vendor/vernee/k11tc_a/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
     vendor/vernee/k11tc_a/proprietary/lib/libion.so:system/lib/libion.so \
@@ -126,8 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/vernee/k11tc_a/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/vernee/k11tc_a/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
     vendor/vernee/k11tc_a/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/lib64/libwebrtc_audio_preprocessing.so \
     vendor/vernee/k11tc_a/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
@@ -142,42 +117,24 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
     vendor/vernee/k11tc_a/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libsec_mem.so:system/lib/libsec_mem.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libsec_mem.so:system/lib64/libsec_mem.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_utils.so:system/lib64/libcam3_utils.so \
     vendor/vernee/k11tc_a/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libdrmmtkutil.so:system/lib64/libdrmmtkutil.so \
     vendor/vernee/k11tc_a/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.utils.cpuctrl.so:system/lib/libcam.utils.cpuctrl.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.utils.cpuctrl.so:system/lib64/libcam.utils.cpuctrl.so \
     vendor/vernee/k11tc_a/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
     vendor/vernee/k11tc_a/proprietary/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
     vendor/vernee/k11tc_a/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libblisrc.so:system/lib64/libblisrc.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
     vendor/vernee/k11tc_a/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
     vendor/vernee/k11tc_a/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
@@ -195,8 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
     vendor/vernee/k11tc_a/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
     vendor/vernee/k11tc_a/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
@@ -208,37 +163,22 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/vernee/k11tc_a/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
     vendor/vernee/k11tc_a/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_hwnode.so:system/lib64/libcam3_hwnode.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
     vendor/vernee/k11tc_a/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libem_lte_jni.so:system/lib64/libem_lte_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
-    vendor/vernee/k11tc_a/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib/hw/hwcomposer.mt6755.so:system/lib/hw/hwcomposer.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib64/hw/hwcomposer.mt6755.so:system/lib64/hw/hwcomposer.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
-   vendor/vernee/k11tc_a/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
+    vendor/vernee/k11tc_a/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib64/hw/gralloc.mt6755.so:system/lib64/hw/gralloc.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
     vendor/vernee/k11tc_a/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
     vendor/vernee/k11tc_a/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
     vendor/vernee/k11tc_a/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
     vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.sdkclient.so:system/lib64/libcam.sdkclient.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmsbc_mtk.so:system/lib64/libmsbc_mtk.so \
     vendor/vernee/k11tc_a/proprietary/lib/libnvram.so:system/lib/libnvram.so \
@@ -247,12 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
     vendor/vernee/k11tc_a/proprietary/lib/libperfservice.so:system/lib/libperfservice.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libperfservice.so:system/lib64/libperfservice.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
     vendor/vernee/k11tc_a/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
@@ -265,18 +199,12 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
     vendor/vernee/k11tc_a/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libem_bt_jni.so:system/lib64/libem_bt_jni.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
     vendor/vernee/k11tc_a/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmtk_mmutils.so:system/lib64/libmtk_mmutils.so \
     vendor/vernee/k11tc_a/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmmsdkservice.so:system/lib64/libmmsdkservice.so \
     vendor/vernee/k11tc_a/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
@@ -292,42 +220,18 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
     vendor/vernee/k11tc_a/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
     vendor/vernee/k11tc_a/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
     vendor/vernee/k11tc_a/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
     vendor/vernee/k11tc_a/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libcvsd_mtk.so:system/lib64/libcvsd_mtk.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
     vendor/vernee/k11tc_a/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
     vendor/vernee/k11tc_a/proprietary/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libem_sensor_jni.so:system/lib64/libem_sensor_jni.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
     vendor/vernee/k11tc_a/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
     vendor/vernee/k11tc_a/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
@@ -379,7 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/vernee/k11tc_a/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
     vendor/vernee/k11tc_a/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
-    vendor/vernee/k11tc_a/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
     vendor/vernee/k11tc_a/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/vernee/k11tc_a/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
     vendor/vernee/k11tc_a/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
@@ -391,12 +294,8 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
     vendor/vernee/k11tc_a/proprietary/lib/libgas.so:system/lib/libgas.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libgas.so:system/lib64/libgas.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
     vendor/vernee/k11tc_a/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
     vendor/vernee/k11tc_a/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/vernee/k11tc_a/proprietary/bin/netdiag:system/bin/netdiag \
@@ -418,7 +317,6 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
     vendor/vernee/k11tc_a/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
     vendor/vernee/k11tc_a/proprietary/lib/libgem.so:system/lib/libgem.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libgem.so:system/lib64/libgem.so \
     vendor/vernee/k11tc_a/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
@@ -428,7 +326,134 @@ PRODUCT_COPY_FILES += \
     vendor/vernee/k11tc_a/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/vernee/k11tc_a/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/vernee/k11tc_a/proprietary/lib64/libalgoandroid.so:system/lib64/libalgoandroid.so \
-    vendor/vernee/k11tc_a/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
-    vendor/vernee/k11tc_a/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/vernee/k11tc_a/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so
+
+#OMX Codec stuff
+PRODUCT_COPY_FILES += \
+    vendor/vernee/k11tc_a/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
+   vendor/vernee/k11tc_a/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
+    vendor/vernee/k11tc_a/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg 
+
+#For the battery stats
+PRODUCT_COPY_FILES += \
+    vendor/vernee/k11tc_a/proprietary/bin/fuelgauged:system/bin/fuelgauged \
+    vendor/vernee/k11tc_a/proprietary/lib/libfgauge.so:system/lib/libfgauge.so 
+
+#Camera
+PRODUCT_COPY_FILES += \
+    vendor/vernee/k11tc_a/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.exif.v3.so:system/lib/libcam.exif.v3.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.exif.v3.so:system/lib64/libcam.exif.v3.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.sdkclient.so:system/lib64/libcam.sdkclient.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.utils.cpuctrl.so:system/lib/libcam.utils.cpuctrl.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.utils.cpuctrl.so:system/lib64/libcam.utils.cpuctrl.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_hwnode.so:system/lib64/libcam3_hwnode.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam3_utils.so:system/lib64/libcam3_utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so 
+
+#Additional Camera blobs for the fix
+PRODUCT_COPY_FILES += \
+    vendor/vernee/k11tc_a/proprietary/lib/libcam.jni.lomohaljni.so:system/lib/libcam.jni.lomohaljni.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libeffecthal.JPG.so:system/lib/libeffecthal.JPG.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libeffecthal.JPG.so:system/lib64/libeffecthal.JPG.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libfeatureio.cfb.so:system/lib/libfeatureio.cfb.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libfeatureio.cfb.so:system/lib64/libfeatureio.cfb.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libfeatureio.featurefactory.so:system/lib/libfeatureio.featurefactory.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libfeatureio.featurefactory.so:system/lib64/libfeatureio.featurefactory.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libONSemiAR1337PdafLibrary.so:system/lib/libONSemiAR1337PdafLibrary.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libONSemiAR1337PdafLibrary.so:system/lib64/libONSemiAR1337PdafLibrary.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libRSDriver_mtk.so:system/lib/libRSDriver_mtk.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libRSDriver_mtk.so:system/lib64/libRSDriver_mtk.so \
+    vendor/vernee/k11tc_a/proprietary/lib/libsec_mem.so:system/lib/libsec_mem.so \
+    vendor/vernee/k11tc_a/proprietary/lib64/libsec_mem.so:system/lib64/libsec_mem.so 
